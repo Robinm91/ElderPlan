@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Elderplannerv1</string>
+    <string name="title_activity_listview">ListviewActivity</string>
+    <string name="Title">Title</string>
+    <string name="Where">Where</string>
+    <string name="Notes">Other notes</string>
+    <string name="Create">Create event</string>
+    <string name="Week">Week X</string>
+</resources>

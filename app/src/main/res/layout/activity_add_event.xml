@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.robin.elderplannerv1.AddEventActivity">
+    <TextView
+        android:id="@+id/titleLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Title"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/lblPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Where"
+        android:layout_below="@id/titleTxt" />
+
+    <TextView
+        android:id="@+id/lblNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/placeTxt"
+        android:text="@string/Notes" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="171dp"
+        android:layout_height="319dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="14dp"
+        android:isScrollContainer="false"
+        android:labelFor="@+id/editText2" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="188dp"
+        android:layout_height="453dp"
+        android:layout_alignStart="@+id/titleTxt"
+        android:layout_alignTop="@+id/timePicker" />
+
+    <Button
+        android:id="@+id/createEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="createEventClick"
+        android:text="@string/Create" />
+
+    <EditText
+        android:id="@+id/titleTxt"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/notesTxt"
+        android:layout_below="@+id/titleLbl"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/placeTxt"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/lblPlace"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/notesTxt"
+        android:layout_width="332dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblNotes"
+        android:ems="10"
+        android:inputType="textPersonName" />
+</RelativeLayout>

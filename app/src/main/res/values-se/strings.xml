@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">elderPlanner</string>
+    <string name="title_activity_listview">ListviewActivity</string>
+    <string name="Title">Beskrivning</string>
+    <string name="Where">Plats</string>
+    <string name="Notes">Anteckningar</string>
+    <string name="Create">Skapa event</string>
+    <string name="Week">Vecka X</string>
+</resources>

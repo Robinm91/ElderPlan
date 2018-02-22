@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/dateTxt"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/dateTxt">
+
+        <!-- Name Label -->
+        <TextView
+            android:id="@+id/titleTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dip"
+            android:paddingLeft="6dip"
+            android:textSize="17dip"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/placeTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dip"
+            android:layout_below="@id/titleTxt"
+            android:paddingLeft="6dip"
+            android:textSize="17dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>
